@@ -1,0 +1,2 @@
+# Run the expiration  regularly
+*/5  *  *  *  * /usr/local/sbin/snuffler_managehost.pl build -f /etc/puppet/modules/snuffler/files/suspicious_hosts.yml -b /etc/puppet/modules/snuffler/files/bpf/suspicious_hosts.bpf
